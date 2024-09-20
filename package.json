@@ -1,0 +1,21 @@
+{
+  "name": "forge-tools",
+  "version": "0.0.1",
+  "description": "A tool for competitive Forge of Empires players",
+  "scripts": {
+    "build": "webpack build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack watch --mode development",
+    "start:firefox": "web-ext run"
+  },
+  "author": "Krishna Khong",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/firefox-webext-browser": "^120.0.4",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.4",
+    "web-ext": "^8.3.0",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
