@@ -6,7 +6,7 @@
   "icons": {
     "64": "icons/icon.png"
   },
-  "permissions": [""],
+  "permissions": ["scripting", "storage"],
   "content_scripts": [
     {
       "matches": [
@@ -15,6 +15,12 @@
       "js": [
         "./dist/index.js"
       ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["dist/custom_script.js"],
+      "matches": ["https://*.forgeofempires.com/game/index?"]
     }
   ]
 }

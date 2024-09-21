@@ -2,6 +2,7 @@ module.exports = {
   mode: 'development',
   entry: {
     index: './src/index.ts',
+    custom_script: './src/custom_script.ts'
   },
   devtool: 'inline-source-map',
   module: {

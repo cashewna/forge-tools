@@ -6,7 +6,7 @@
     "build": "webpack build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack watch --mode development",
-    "start:firefox": "web-ext run"
+    "start": "web-ext run --target=firefox-desktop"
   },
   "author": "Krishna Khong",
   "license": "ISC",
